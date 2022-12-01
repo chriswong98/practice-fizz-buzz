@@ -5,6 +5,7 @@ public class FizzBuzz {
     public static final String FIZZ = "Fizz";
     public static final String BUZZ = "Buzz";
     public static final String FIZZ_BUZZ = "FizzBuzz";
+    public static final String WHIZZ = "Whizz";
 
     public String countOff(int n){
         if(n%3==0 && n%5==0){
@@ -15,6 +16,9 @@ public class FizzBuzz {
         }
         else if(n%5 ==0){
             return BUZZ;
+        }
+        else if(n%7 ==0){
+            return WHIZZ;
         }
         
         return Integer.toString(n);
