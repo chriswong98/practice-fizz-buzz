@@ -3,7 +3,7 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
 
     public String countOff(int n){
-        return null;
+        return Integer.toString(n);
     }
 
 }
