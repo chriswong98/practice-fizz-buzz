@@ -6,8 +6,13 @@ public class FizzBuzz {
     public static final String BUZZ = "Buzz";
     public static final String FIZZ_BUZZ = "FizzBuzz";
     public static final String WHIZZ = "Whizz";
+    public static final String FIZZ_WHIZZ = "FizzWhizz";
 
     public String countOff(int n){
+        
+        if(n%3==0&& n%7==0){
+            return FIZZ_WHIZZ;
+        }
         if(n%3==0 && n%5==0){
             return FIZZ_BUZZ;
         }
