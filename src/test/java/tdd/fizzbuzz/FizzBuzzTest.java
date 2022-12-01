@@ -96,7 +96,7 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         //when
-        String actual = fizzBuzz.countOff(35);
+        String actual = fizzBuzz.countOff(105);
 
         //then
         assertEquals("FizzBuzzWhizz", actual);

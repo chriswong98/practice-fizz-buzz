@@ -15,16 +15,16 @@ public class FizzBuzz {
         if(n%3 ==0 && n%5==0&& n%7==0){
             return FIZZ_BUZZ_WHIZZ;
         }
-        if(n%5==0&& n%7==0){
+        else if(n%5==0&& n%7==0){
             return BUZZ_WHIZZ;
         }
-        if(n%3==0&& n%7==0){
+        else if(n%3==0&& n%7==0){
             return FIZZ_WHIZZ;
         }
-        if(n%3==0 && n%5==0){
+        else if(n%3==0 && n%5==0){
             return FIZZ_BUZZ;
         }
-        if (n %3 ==0){
+        else if (n %3 ==0){
             return FIZZ;
         }
         else if(n%5 ==0){
